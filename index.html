@@ -15,6 +15,10 @@
         }
         nav {
             background-color: #ca0000;
+          
+        }
+        .navbar-custom {
+        min-height: 70px;
         }
         nav a.nav-link {
             color: white !important;
@@ -34,7 +38,8 @@
             text-align: center;
         }
         .card img {
-            max-height: 200px;
+            max-height: 250px;
+            min-height: 250px;
             object-fit: cover;
         }
         .social-links a {
@@ -50,27 +55,27 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #343a40;">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top " style="background-color: #343a40;">
           <div class="container-fluid">
             <!-- Navbar Brand -->
-         <a class="navbar-brand ms-3" href="#">Portfolio</a>
+         <a class="navbar-brand ms-5" href="#">Portfolio</a>
 
           <!-- Social Media Links -->
           <div class="d-flex">
               <a href="https://github.com/striderzz" class="me-3 text-white" target="_blank">
-                  <img src="static/github-icon.png" alt="GitHub" width="25">
+                  <img src="static/github-icon.png" alt="GitHub" width="35">
               </a>
               <a href="https://www.linkedin.com/in/hasan-m-4b1bba315/" class="me-3 text-white" target="_blank">
-                  <img src="static/linkedin-icon.png" alt="LinkedIn" width="25">
+                  <img src="static/linkedin-icon.png" alt="LinkedIn" width="35">
               </a>
-              <!-- 
+              
               <a href="https://play.google.com/store/apps/dev?id=yourdevid" class="me-3 text-white" target="_blank">
-                  <img src="static/github-icon.png" alt="Google Play" width="25">
+                  <img src="static/google-play.png" alt="Google Play" width="35">
               </a>
               <a href="https://store.steampowered.com/developer/yourdeveloperid" class="text-white" target="_blank">
-                  <img src="static/github-icon.png" alt="Steam" width="25">
+                  <img src="static/steam.png" alt="Steam" width="35">
               </a>
-              -->
+              
           </div>
 
          
@@ -103,12 +108,14 @@
         <p class="lead">Grad Student @UT Dallas | Game Developer | Indie Game Creator</p>
         <p>Passionate game developer with 4 years of experience in creating immersive and engaging games for both mobile and desktop platforms. Skilled in Unity, C#, and agile development practices.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta impedit ut, sunt maiores deserunt nulla illum architecto rerum culpa excepturi quod dolore aliquid vel quibusdam adipisci itaque! Veniam, magni?
-        Molestias architecto, sapiente fuga itaque quasi consequuntur error fugiat ut quos alias harum eligendi ducimus libero. Facere, nihil, dignissimos praesentium labore tenetur nisi nobis iste eius quos, necessitatibus id reiciendis?
-        Alias sed amet itaque exercitationem facilis natus consectetur nesciunt odio nostrum, et asperiores quam quaerat suscipit similique adipisci aliquam aspernatur in sit minus ipsam iste, possimus illum eaque quos? Unde!
-
-        Eveniet, molestiae velit sed nihil consequatur explicabo ut eligendi, recusandae natus quibusdam repudiandae nulla a hic, omnis dignissimos minus rem iste tempore. Vero ad omnis consectetur reiciendis hic vitae iste.
-        Repudiandae tempora sed nihil corporis. Praesentium voluptatem voluptatum maiores debitis at, omnis repellat labore, animi, autem quasi nihil itaque non excepturi et adipisci alias officia impedit. Sapiente illum dignissimos reprehenderit.</p>
+        <ul>
+            <li>Graduate Student: Pursuing a Master’s in Computer Engineering at UT Dallas.</li>
+            <li>Academic Background: Holds a Bachelor’s degree in Computer Engineering.</li>
+            <li>Game Development Journey: Making games since 2020 with a deep passion for gamedev.</li>
+            <li>Publications: Released 12 mobile games on Google Play under RedPanzer Studios and 2 games on Steam.</li>
+            <li>Technical Proficiency: Adept in Unity, game design, and low-poly modeling using Blender.</li>
+          </ul>
+          
         <br>
         <a href="#projects" class="btn btn-primary">View My Projects</a>
     </div>
@@ -122,12 +129,12 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="static/project1.jpg" class="card-img-top" alt="Project Image">
+                    <img src="static/the_eastern_drive.jpg" class="card-img-top" alt="Project Image">
                     <div class="card-body">
-                        <h3 class="card-title">The Eastern Drive</h3>
+                        <h3 class="card-title">The Eastern Drive - Steam Game</h3>
                         <p class="card-text">Car simulation game with time trials, cop chases missions, delivery missions and unlockable vehicles</p>
                         <ul>
-                            <li><strong>Technologies Used:</strong> Unity, C#, Blender, Steamworks API/li>
+                            <li><strong>Technologies Used:</strong> Unity, C#, Blender, Steamworks API</li>
                             <li><strong>Outcome:</strong> 200+ copies sold on steam</li>
                         </ul>
                         <a href="https://github.com/yourusername/project1" class="btn btn-outline-dark me-2" target="_blank">GitHub</a>
@@ -138,29 +145,49 @@
 
             <div class="col">
               <div class="card h-100">
-                  <img src="static/project1.jpg" class="card-img-top" alt="Project Image">
+                  <img src="static/train.jpg" class="card-img-top" alt="Project Image">
                   <div class="card-body">
-                      <h3 class="card-title">Project Title 1</h3>
-                      <p class="card-text">An engaging game with unique mechanics and vibrant visuals.</p>
+                      <h3 class="card-title">Vintage Steam Train Simulator - Mobile Game</h3>
+                      <p class="card-text">a Train Simulator game with 3 modes endless, routes, and crash testing, featuring a physics-based train system with realistic derailments and crashes</p>
                       <ul>
                           <li><strong>Technologies Used:</strong> Unity, C#, Photoshop</li>
-                          <li><strong>Outcome:</strong> Unity, C#, Photoshop</li>
+                          <li><strong>Outcome:</strong>  Achieved 50,000+ downloads, 200+ reviews, and became the top trending train game on Google
+                            Play Store,</li>
                       </ul>
                       <a href="https://github.com/yourusername/project1" class="btn btn-outline-dark me-2" target="_blank">GitHub</a>
                      
                   </div>
               </div>
           </div>
+          
+          <div class="col">
+            <div class="card h-100">
+                <img src="static/the_westcoast_drive.jpg" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h3 class="card-title">The Westcoast Drive - Steam Game</h3>
+                    <p class="card-text">Car simulation game with time trials, cop chases missions, delivery missions and unlockable vehicles</p>
+                    <ul>
+                        <li><strong>Technologies Used:</strong> Unity, C#, Blender, Steamworks API</li>
+                        <li><strong>Outcome:</strong> 100+ copies sold on steam</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/project1" class="btn btn-outline-dark me-2" target="_blank">GitHub</a>
+                   
+                </div>
+            </div>
+        </div>
+          
+          
 
           <div class="col">
             <div class="card h-100">
-                <img src="static/project1.jpg" class="card-img-top" alt="Project Image">
+                <img src="static/zelda.png" class="card-img-top" alt="Project Image">
                 <div class="card-body">
-                    <h3 class="card-title">Project Title 1</h3>
-                    <p class="card-text">An engaging game with unique mechanics and vibrant visuals.</p>
+                    <h3 class="card-title">Top Down 2D RPG</h3>
+                    <p class="card-text">a Zelda-inspired 2D top-down RPG using Unity's Rule Tile and Tilemap system, enabling efficient level design with dynamic, tile-based environments.
+                        </p>
                     <ul>
                         <li><strong>Technologies Used:</strong> Unity, C#, Photoshop</li>
-                        <li><strong>Outcome:</strong> Unity, C#, Photoshop</li>
+                        <li><strong>Outcome:</strong> Mastered Unity2D development, tilemap creation, and top-down movement mechanics./li>
                     </ul>
                     <a href="https://github.com/yourusername/project1" class="btn btn-outline-dark me-2" target="_blank">GitHub</a>
                    
